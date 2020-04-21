@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>My first website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet"  type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>Summary: Latitude vs X</header>
+    <div class="container cont1">
+        <section id="overview">
+          <section id="figure"> 
+            <img id="Fig1-image" src="assets/Images/Fig1.png" alt="Image1">
+          </section>
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+          <p>After assembling the dataset we used Matplotlib to plot various aspects of the weather vs latitude.  Factors we looked at included: temperature, cloudiness, wind-speed and humidity.  The site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+        </section>
+    </div>   
+    
+    <div class="container cont2">
+        <header>Summary: Latitude vs Max Temperatures</header>        
+          <section id="figure1"> 
+            <img id="Fig1a-image" src="assets/Images/Fig1.png" alt="Image1">
+          </section>
+          <p></p>          
+          <p>This chart shows that the highest maximum temperatures tend to be closest to the equator....DUH!!!  Also since the temperatures were taken on May 1, the maximum temperatures are much lower in the southern hemisphere.</p>
+    </div> 
+    
+    <header>Summary: Latitude vs Humidity</header>
+    <div class="container cont3">
+         <section id="figure2"> 
+            <img id="Fig2-image" src="assets/Images/Fig2.png" alt="Image1">
+          </section>
+          <p></p>          
+          <p>This chart shows that humidity by city latitude.  The only observation is that it appears there is no correlation between latitude and humidity.</p>
+    </div>     
+
+    
+    <header>Summary: Latitude vs Cloudiness</header>
+    <div class="container cont4">
+         <section id="figure3"> 
+            <img id="Fig3-image" src="assets/Images/Fig3.png" alt="Image1">
+          </section>
+          <p></p>
+          <p>This chart shows that cloudiness by city latitude.  The only observation is that it appears there is no correlation between latitude and cloudiness.</p>
+    </div>
+    
+    <header>Summary: Latitude vs Wind Speed</header>
+    <div class="container cont5">
+         <section id="figure4"> 
+            <img id="Fig4-image" src="assets/Images/Fig4.png" alt="Image1">
+          </section>
+          <p></p>
+          <p>This chart shows that wind speed by city latitude.  The only observation is that it appears there is limited correlation between latitude and wind speed.  The higher latitudes in the southern hemisphere do appear to have higher winds than the north.</p>
+    </div>    
+    
+</body>
+</html>
