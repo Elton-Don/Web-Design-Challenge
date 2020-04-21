@@ -1,40 +1,73 @@
+
 /* Styling for HTML elements */
 body {
-    padding: 20px 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 24px;
-    /* line-height: 150%; */
-    color: black;
-    background: cornsilk;
-    }
+  padding: 20px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  /* line-height: 150%; */
+  color: black;
+  background: cornsilk;
+  }
 
 header {
-    padding-left: 100px;
-    margin-bottom: 20px;
-    font-size: 40px;
-    color: yellowgreen;
-    }
+  padding-left: 100px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: yellowgreen;
+  }
 
 
 /* Selecting elements by class */
 .container {
-    width: 1020px;
-    padding-top: 20px;
-  }
+  width: 1020px;
+  padding-top: 20px;
+}
 
- /* Selecting elements by ID */
+/* Selecting elements by ID */
 #overview,
 #Fig1-image {
-  float: left;
+float: left;
 }     
 
 #figure {
-    position: relative;
-  }
+  position: relative;
+}
 
-  #Fig1-image {
-    width: 300px;
-    height: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+#Fig1-image {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ 
+#Fig1b {
+  width: 500px;
+  height: 400px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 20p
+}
+
+#Fig2b {
+  width: 500px;
+  height: 400px;
+  margin-left: 400px;
+  margin-right: 0px;
+  padding-top: 20p
+}
+
+#Fig3b {
+  width: 500px;
+  height: 400px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 20px;
+}
+
+#Fig4b {
+  width: 500px;
+  height: 400px;
+  margin-left: 400px;
+  margin-right: 0px;
+  padding-top: 20px;
+}
